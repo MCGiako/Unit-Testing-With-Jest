@@ -16,20 +16,20 @@ const fromEuroToDollar = function(valueInEuro){
     // convertimos el valor a dolares
     let valueInDollar = valueInEuro * 1.2;
     // retornamos el valor
-    return valueInDollar;
+    return Math.floor(valueInDollar);
 }
 
 const fromDollarToYen = function(valueInDollar){
     // convertimos el valor a japan yen
     let valueInYen = valueInDollar * 127.9;
     // retornamos el valor
-    return valueInYen;
+    return Math.floor(valueInYen);
 }
 const fromYenToPound = function(valueInYen){
     // convertimos el valor a british pound
     let valueInPound = valueInYen * 0.8;
     // retornamos el valor
-    return valueInPound;
+    return Math.floor(valueInPound);
 }
 
 
